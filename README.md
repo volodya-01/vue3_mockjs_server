@@ -23,17 +23,17 @@ See [vue中使用mockjs服务器测试项目博客](https://www.cnblogs.com/volo
 
 ## 1、在vue项目中安装依赖 
 ```
-  npm  install  mockjs --save-dev
- 
+npm  install  mockjs --save-dev 
 ```
 ```
 安装成功后package.json文件会有下图红色框内信息
 ```
+<img src="./gitimg/11.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 ## 2、建立项目文件结构
 ```
  根目录下建立mockServe文件夹，然后分别构建util.js 、index.js 、json文件（以index.json为例）
 ``` 
-
+<img src="./gitimg/12.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 ## 3、util.js文件，主要是用来进行json数据读取方法的封装。内容如下
 
 ```
@@ -52,7 +52,7 @@ See [vue中使用mockjs服务器测试项目博客](https://www.cnblogs.com/volo
  
 }
 ```
-
+<img src="./gitimg/13.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 ## 4、index.js文件，主要是用来定义各个接口方法。内容如下
 
 ```
@@ -397,6 +397,7 @@ See [vue中使用mockjs服务器测试项目博客](https://www.cnblogs.com/volo
 ```
 在vue.config.js文件中或者路径build/webpack.dev.conf.js文件中的devServer属性中新添加一个before钩子函数,用来监听来自web的http请求。
 ```
+<img src="./gitimg/01.png" width="1920" height="1080px" alt="贵港科学调度系统">
 ### vue.config.js文件：
 ```
 
@@ -511,8 +512,9 @@ See [vue中使用mockjs服务器测试项目博客](https://www.cnblogs.com/volo
 48 </style>
 
 ```
-
+<img src="./gitimg/15.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 
 ## 8.请求完成后的数据为：
+<img src="./gitimg/16.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 
  
