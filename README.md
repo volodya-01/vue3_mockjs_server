@@ -24,38 +24,36 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
   npm  install  mockjs --save-dev
 ```
-> 安装成功后package.json文件会有下图红色框内信息
-
+```
+安装成功后package.json文件会有下图红色框内信息
+```
 ## 2、建立项目文件结构
-
- ###  根目录下建立mockServe文件夹，然后分别构建util.js 、index.js 、json文件（以index.json为例）
-
- 
-
- 
+```
+ 根目录下建立mockServe文件夹，然后分别构建util.js 、index.js 、json文件（以index.json为例）
+``` 
 
 ## 3、util.js文件，主要是用来进行json数据读取方法的封装。内容如下
 
+```
+ const fs = require('fs')
+ const path = require('path')
+  module.exports = {
+    // 用于被index.js进行调用
+    getJsonFile(filePath) {
+        // 读取指定的json文件 
+        const json = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8') 
+        // 解析并返回
+     //  console.log(json)
+        return JSON.parse(json)
 
-> const fs = require('fs')
-> const path = require('path')
->  module.exports = {
->    // 用于被index.js进行调用
->     getJsonFile(filePath) {
->         // 读取指定的json文件 
->        const json = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8') 
->        // 解析并返回
->     //  console.log(json)
->        return JSON.parse(json)
-
->     }
+     }
  
-> }
-
+}
+```
 
 ## 4、index.js文件，主要是用来定义各个接口方法。内容如下
 
-
+```
   1 const Mock = require('mockjs')
   2 
   3 const util = require('./util')
@@ -177,10 +175,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 119 
 120 }
 
-复制代码
+```
 
-5、index.json文件，主要是用来构建自己的模拟数据。如：
-复制代码
+## 5、index.json文件，主要是用来构建自己的模拟数据。如：
+```
 
   1 {
   2     "Ok": true,
@@ -391,14 +389,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 207     }
 208 }
 
-复制代码
+```
 
-6、 修改 webpack 配置。
-
+## 6、 修改 webpack 配置。
+```
 在vue.config.js文件中或者路径build/webpack.dev.conf.js文件中的devServer属性中新添加一个before钩子函数,用来监听来自web的http请求。
-
-vue.config.js文件：
-复制代码
+```
+### vue.config.js文件：
+```
 
  1 const path = require("path");
  2 const resolve = function (dir) {
@@ -456,15 +454,11 @@ vue.config.js文件：
 54   },
 55 };
 
-复制代码
+``` 
 
- 
+## 7、完成以上步骤以后，启动应用npm run serve，在vue项目中使用即可。
 
- 
-
-7、完成以上步骤以后，启动应用npm run serve，在vue项目中使用即可。
-复制代码
-
+```
  1 <template>
  2   <div class="hello">
  3     <h1>{{ msg }}</h1>
@@ -514,12 +508,9 @@ vue.config.js文件：
 47 }
 48 </style>
 
-复制代码
+```
 
- 
 
- 
-
- 8.请求完成后的数据为：
+## 8.请求完成后的数据为：
 
  
