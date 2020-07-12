@@ -19,10 +19,12 @@ yarn build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # vue中使用mockjs服务器测试项目
+See [vue中使用mockjs服务器测试项目博客](https://www.cnblogs.com/volodya/p/13289604.html).
 
-## 1、在vue项目中安装依赖
+## 1、在vue项目中安装依赖 
 ```
   npm  install  mockjs --save-dev
+ 
 ```
 ```
 安装成功后package.json文件会有下图红色框内信息
