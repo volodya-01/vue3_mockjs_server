@@ -18,57 +18,43 @@ yarn build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
- vue中使用mockjs服务器测试项目
+# vue中使用mockjs服务器测试项目
 
-1、在vue项目中安装依赖
-
+## 1、在vue项目中安装依赖
+```
   npm  install  mockjs --save-dev
+```
+> 安装成功后package.json文件会有下图红色框内信息
 
-安装成功后package.json文件会有下图红色框内信息
+## 2、建立项目文件结构
 
-2、建立项目文件结构
-
-   根目录下建立mockServe文件夹，然后分别构建util.js 、index.js 、json文件（以index.json为例）
-
- 
-
- 
-
- 3、util.js文件，主要是用来进行json数据读取方法的封装。内容如下
-复制代码
-
- 1 const fs = require('fs')
- 2 
- 3 const path = require('path')
- 4 
- 5 module.exports = {
- 6 
- 7     // 用于被index.js进行调用
- 8 
- 9     getJsonFile(filePath) {
-10 
-11         // 读取指定的json文件
-12 
-13         const json = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8')
-14 
-15         // 解析并返回
-16 
-17       //  console.log(json)
-18 
-19         return JSON.parse(json)
-20 
-21     }
-22 
-23 }
-
-复制代码
+ ###  根目录下建立mockServe文件夹，然后分别构建util.js 、index.js 、json文件（以index.json为例）
 
  
 
  
 
- 4、index.js文件，主要是用来定义各个接口方法。内容如下
-复制代码
+## 3、util.js文件，主要是用来进行json数据读取方法的封装。内容如下
+
+
+> const fs = require('fs')
+> const path = require('path')
+>  module.exports = {
+>    // 用于被index.js进行调用
+>     getJsonFile(filePath) {
+>         // 读取指定的json文件 
+>        const json = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8') 
+>        // 解析并返回
+>     //  console.log(json)
+>        return JSON.parse(json)
+
+>     }
+ 
+> }
+
+
+## 4、index.js文件，主要是用来定义各个接口方法。内容如下
+
 
   1 const Mock = require('mockjs')
   2 
