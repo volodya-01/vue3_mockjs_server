@@ -407,7 +407,7 @@ npm  install  mockjs --save-dev
 在vue.config.js文件中或者路径build/webpack.dev.conf.js文件中的devServer属性中新添加一个before钩子函数,用来监听来自web的http请求。
 ```
 
-<img src="./gitimg/01.png" width="1920" height="1080px" alt="贵港科学调度系统">
+<img src="./gitimg/14.png" width="100%" height="100%" alt="vue中使用mockjs服务器测试项目">
 
 ### vue.config.js文件：
 
