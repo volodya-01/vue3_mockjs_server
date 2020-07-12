@@ -1,0 +1,41 @@
+{
+    "Ok": true,
+    "Message": null,
+    "Result": [{
+        "Key": 2009,
+        "State": 0
+    }, {
+        "Key": 2010,
+        "State": 0
+    }, {
+        "Key": 2011,
+        "State": 0
+    }, {
+        "Key": 2012,
+        "State": 1
+    }, {
+        "Key": 2013,
+        "State": 0
+    }, {
+        "Key": 2014,
+        "State": 0
+    }, {
+        "Key": 2015,
+        "State": 0
+    }, {
+        "Key": 2016,
+        "State": 0
+    }, {
+        "Key": 2017,
+        "State": 0
+    }, {
+        "Key": 2018,
+        "State": 0
+    }, {
+        "Key": 2019,
+        "State": 0
+    }, {
+        "Key": 2020,
+        "State": 0
+    }]
+}

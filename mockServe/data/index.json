@@ -1,0 +1,208 @@
+{
+    "Ok": true,
+    "Message": null,
+    "Result": {
+        "VolumeFromOwnSource": 0,
+        "VolumeFromOwnSourceGrading": 0,
+        "MasterMeterErrorAdjustment": 0,
+        "IsIncreaseOrDecrease": "偏多",
+        "MasterMeterErrorAdjustmentGrading": 0,
+        "WaterImported": 0,
+        "WaterImportedGrading": 0,
+        "WaterExported": 0,
+        "WaterExportedGrading": 0,
+        "WaterSupplied": 0,
+        "BilledMetered": 0,
+        "BilledMeteredGrading": 0,
+        "BilledUnmetered": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "环卫用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "绿化用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "新建管道冲洗",
+                    "Value": 0
+                },
+                {
+                    "Label": "定量用户用水",
+                    "Value": 0
+                }
+            ]
+        },
+        "BilledUnmeteredGrading": 0,
+        "UnbilledMetered": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "自来水企业生产/办公用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "消防用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "政策性减免",
+                    "Value": 0
+                }
+            ]
+        },
+        "UnbilledMeteredGrading": 0,
+        "UnbilledUnmetered": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "消防用水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "管网维护和冲洗用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "自来水企业生活/办公用水",
+                    "Value": 0
+                },
+                {
+                    "Label": "二次供水泵房冲洗",
+                    "Value": 0
+                }
+            ]
+        },
+        "UnbilledUnmeteredGrading": 0,
+        "UnbilledUnmeteredMode": 0,
+        "UnbilledUnmeteredPercent": 0,
+        "UnbilledUnmeteredEstimated": 0,
+        "AuthorizedConsumption": 0,
+        "WaterLossed": 0,
+        "ReportedLeakage": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "明漏点漏失水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "爆管漏失水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "明漏点漏失水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "爆管漏失水量",
+                    "Value": 0
+                },{
+                    "Label": "明漏点漏失水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "爆管漏失水量",
+                    "Value": 0
+                }
+            ]
+        },
+        "ReportedLeakageGrading": 0,
+        "UnreportedLeakage": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "已检出明漏点水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "未检出暗漏点水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "已检出明漏点水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "未检出暗漏点水量",
+                    "Value": 0
+                },{
+                    "Label": "已检出明漏点水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "未检出暗漏点水量",
+                    "Value": 0
+                },{
+                    "Label": "已检出明漏点水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "未检出暗漏点水量",
+                    "Value": 0
+                }
+            ]
+        },
+        "UnreportedLeakageGrading": 0,
+        "UnreportedLeakageMode": 0,
+        "UnreportedLeakagePercent": 0,
+        "UnreportedLeakageEstimated": 0,
+        "BackgroundLeakage": 0,
+        "BackgroundLeakageGrading": 0,
+        "BackgroundLeakageMode": 0,
+        "BackgroundLeakagePercent": 0,
+        "BackgroundLeakageEstimated": 0,
+        "TankLeakageAndOverflow": 0,
+        "TankLeakageAndOverflowGrading": 0,
+        "TankLeakageAndOverflowMode": 0,
+        "TankLeakageAndOverflowPercent": 0,
+        "TankLeakageAndOverflowEstimated": 0,
+        "UnauthorizedConsumption": {
+            "Value": 0,
+            "SubItems": [{
+                    "Label": "明漏点漏失水量",
+                    "Value": 0
+                },
+                {
+                    "Label": "爆管漏失水量",
+                    "Value": 0
+                }
+            ]
+        },
+        "NonResidentMeteringInaccuracies": 0,
+        "NonResidentMeteringInaccuraciesGrading": 0,
+        "WaterLossBetweenMainSubMeters": 0,
+        "WaterLossBetweenMainSubMetersGrading": 0,
+        "UnauthorizedConsumptionGrading":0,
+        "UnauthorizedConsumptionMode": 0,
+        "UnauthorizedConsumptionPercent": 0,
+        "UnauthorizedConsumptionEstimated": 0,
+        "RevenueWater": 0,
+        "NonRevenueWater": 0,
+        "TotalPipeLength": 0,
+        "TotalPipeLengthGrading": 0,
+        "AveragePressure": 0,
+        "AveragePressureGrading": 0,
+        "ReadingMeterInHouseConsumption": 0,
+        "ReadingMeterInHouseConsumptionGrading": 0,
+        "MaximumFrozenSoilDepth": 0,
+        "MaximumFrozenSoilDepthGrading": 0,
+        "NonRevenueWaterRatio": 0,
+        "ProduceSaleDifferentia": 0,
+        "ProduceSaleDifferentiaRate": 0,
+        "WaterLossRate": 0,
+        "CorrectedReadingMeterInHouseConsumption": 0,
+        "CorrectedPipeLengthPerUnitWaterSupply": 0,
+        "CorrectedAveragePressure": 0,
+        "CorrectedMaximumFrozenSoilDepth": 0,
+        "CorrectedWaterLossRate": 0,
+        "DataQualityScore": 0,
+        "AreasForAttention1": 0,
+        "AreasForAttention2": 0,
+        "AreasForAttention3": 0,
+        "Year": 0,
+        "Month": 0,
+        "StartDate": "2020-03-30 19:37:51",
+        "StopDate": "2020-03-30 19:37:51",
+        "LastModificationDate": "2020-03-30 19:37:51",
+        "CompanyID": "",
+        "DataTableID": ""
+    }
+}

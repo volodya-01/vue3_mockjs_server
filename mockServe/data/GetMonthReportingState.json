@@ -1,0 +1,41 @@
+{
+    "Ok": true,
+    "Message": null,
+    "Result": [{
+        "Key": 1,
+        "State": 0
+    }, {
+        "Key": 2,
+        "State": 0
+    }, {
+        "Key": 3,
+        "State": 0
+    }, {
+        "Key": 4,
+        "State": 0
+    }, {
+        "Key": 5,
+        "State": 0
+    }, {
+        "Key": 6,
+        "State": 0
+    }, {
+        "Key": 7,
+        "State": 0
+    }, {
+        "Key": 8,
+        "State": 0
+    }, {
+        "Key": 9,
+        "State": 0
+    }, {
+        "Key": 10,
+        "State": 0
+    }, {
+        "Key": 11,
+        "State": 0
+    }, {
+        "Key": 12,
+        "State": 0
+    }]
+}

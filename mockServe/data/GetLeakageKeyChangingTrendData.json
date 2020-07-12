@@ -1,0 +1,33 @@
+{
+    "Ok": true,
+    "Message": null,
+    "Result": [{
+        "UnauthorizedConsumptionKey": 0,
+        "MeteredLossKey": 0,
+        "WaterLossedKey": 1,
+        "BilledKey": 0,
+        "UnbilledKey": 0,
+        "Date": "1988"
+    }, {
+        "UnauthorizedConsumptionKey": 0,
+        "MeteredLossKey": 0,
+        "WaterLossedKey": 1,
+        "BilledKey": 0,
+        "UnbilledKey": 0,
+        "Date": "1994"
+    }, {
+        "UnauthorizedConsumptionKey": -0,
+        "MeteredLossKey": -0,
+        "WaterLossedKey": 3,
+        "BilledKey": -2,
+        "UnbilledKey": -0,
+        "Date": "2010"
+    }, {
+        "UnauthorizedConsumptionKey": 0.02131516962943277,
+        "MeteredLossKey": 0.025073993308747773,
+        "WaterLossedKey": 0.02915864238205667,
+        "BilledKey": 0.9212030420078126,
+        "UnbilledKey": 0.0032491526719502562,
+        "Date": "2012"
+    }]
+}
